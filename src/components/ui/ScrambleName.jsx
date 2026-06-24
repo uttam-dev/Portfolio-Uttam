@@ -5,7 +5,7 @@ export const ScrambleName = ({ text }) => {
 
     useEffect(() => {
         let interval = null;
-        const chars = "!@#$%^&*()_+-=[]{}|;:,.<>?/\ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+        const chars = "@#%&*!~^+=<>?/|\{}[]§¶∆Ω≈ç√∫˜µ≤≥÷▓▒░█▌▐■□▪▫▲△▼▽◆◇○●◎⊙◉✦✧✩✪✫✬༒☬𓆩☠︎︎𓆪☬༒⸸⛧⚚♆☾✶✷✸✹✺✻✼✽✾✿❀❁ꜛꜜꜝꜞꜟ⟁⌇⌁⌖⌘⌬⌭⌯⌰༺♰༻∞✞☯︎☮︎⚛︎⚜︎⚕︎⚖︎(•‿•)(ಥ_ಥ)(≧▽≦)⧖⧗⧘⧙⧚⧛⧜⧝⧞⧟⧠⧡⧢⧣░▒▓█▓▒░▒▓█▓▒░▒▓█";
 
         if (isHovering) {
             let iteration = 0;
