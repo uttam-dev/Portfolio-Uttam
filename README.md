@@ -1,16 +1,71 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern developer portfolio built with React, Vite, Tailwind CSS, and Framer Motion.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This portfolio showcases the developer's work, skills, and contact links with animated sections and responsive design.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Vite
+- Tailwind CSS
+- Framer Motion
+- ESLint + Prettier
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start development server
+
+```bash
+npm run dev
+```
+
+### Build for production
+
+```bash
+npm run build
+```
+
+### Preview production build
+
+```bash
+npm run preview
+```
+
+## Scripts
+
+- `npm run dev` - start the Vite development server
+- `npm run build` - build the production bundle
+- `npm run preview` - preview the built output locally
+- `npm run lint` - run ESLint on the project
+- `npm run format` - format code with Prettier
+- `npm run format:check` - check formatting
+
+## Versioning
+
+This project follows semantic versioning (MAJOR.MINOR.PATCH).
+
+- Current version: `1.0.1`
+- Release notes:
+  - `1.0.1` — added new chars on scrimbleName animation | dependency upgrades and README initialization
+  - `1.0.0` — initial portfolio site and core feature implementation
+
+## Project Structure
+
+- `src/` — application source code
+- `src/components/` — reusable UI components
+- `src/hooks/` — custom hooks
+- `src/styles/` — global styles
+- `public/` — static assets
+
+## Notes
+
+Keep `package.json` version in sync with release updates and use semantic versioning for future releases.
